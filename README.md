@@ -1,6 +1,8 @@
 # Clasificación de géneros musicales
 Por Jordan Alessandro Villamil
 
+Link del video: https://drive.google.com/file/d/1uNPuWtOsV5asGOs6tfX3vBLmxRMrqQgV/view?usp=sharing
+
 Introducción:
 El presente proyecto fue realizado a partir del dataset obtenido en Kaggle (https://www.kaggle.com/datasets/purumalgi/music-genre-classification), el cual cuenta con 17996 muestras, con 16 características distintas. Adicionalmente, trae 11 clases distintas para los géneros de Folk, Alt, Blues, Bollywood, Country, Hip Hop, Indie, Instrumental, Metal, Pop y Rock respectivamente. Sin embargo, cabe aclarar que las clases en el conjunto de entrenamiento no se encuentran balanceadas, dado que la mayoría de las muestras pertenecen a la clase de Rock.
 
@@ -19,4 +21,6 @@ Como se evidencia, los puntajes son bastante similares para ambos métodos, con 
 
 Conclusiones:
 Finalmente, con el proyecto realizado es posible evidenciar las dificultades para la clasificación del género musical de una pista, pues los puntajes obtenidos son bastante bajos. Sin embargo, vale la pena hacer al mismo procedimiento con un dataset mucho más balanceado y comprobar nuevamente la capacidad de clasificación de los métodos entrenados. De igual manera, es importante destacar que muchas veces las diferencias entre géneros musicales no solo no son específicas sino tampoco son cuantizables, por lo cual el desarrollo de algoritmos para su clasificación es una tarea difícil que podría requerir de otros métodos o algoritmos de mayor complejidad, al igual que extraer características más significativas con los géneros musicales a clasificar. Quizás la mayor aplicación de estos algoritmos vendría siendo en los servicios de streaming de música como Spotify, para los cuales es importante encontrar características en las canciones y así generar playlists y recomendaciones que mejoren la experiencia de los usuarios, y por medio de este proyecto fue posible no solo entender las bases de dichos procedimientos, sino también sus complejidades y limitaciones.
+
+
 
